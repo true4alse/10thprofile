@@ -1,0 +1,25 @@
+/* 공통적으로 들어가는 스타일 */
+
+html{
+    font-size: 20px;
+    /* 1rem = 20px */
+    font-family: "Pretendard",sans-serif;
+}
+h1{
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+h3{
+    font-size:1rem;
+}
+p{
+    line-height: 140%;
+}
+.detail{
+    font-size:0.9rem;
+}
+button{
+    font-size:0.8rem;
+}
