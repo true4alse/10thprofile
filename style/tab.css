@@ -1,0 +1,130 @@
+/* 
+탭/패드 화면에 적용될 스타일
+1024픽셀 이상 -> 데스크탑
+768~1024 -> 탭 패드
+768 미만 -> 모바일
+*/
+@media (max-width:1400px){
+    html{
+        font-size:18px;
+    }
+    header{
+        width:100%;
+        padding: 0 2rem;
+        box-sizing: border-box;
+    }
+    .btnMenu{display: none;}
+    .floatingHeroTxt{
+        width:100%;
+        padding:0 2rem;
+    }
+    .floatingHeroTxt p:nth-of-type(2){
+        width:60%;
+    }
+    .about{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 6rem;
+        gap:1rem;
+    }
+    .aboutTxt{
+        width:auto;
+        flex:1;
+    }
+    .aboutImg{
+        width:auto;
+        flex:1;
+        margin-top: 10rem;
+    }
+    .skills{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        padding-top: 6rem;
+    }
+
+    .skillsWrap:after{
+        height:514px;
+    }
+
+    .certi{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        padding-top: 6rem;
+    }
+    .certiImg img{
+        height:500px;
+        object-fit: cover;
+    }
+    .popup{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        padding-top: 6rem;
+    }
+    .commonFrame{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        padding-top: 6rem;
+    }
+}
+@media (max-width:1024px){
+
+    .txtFramePopup dl{
+        flex-wrap: wrap;
+    }
+    .txtFramePopup dt{
+        margin-right: 0;
+        width: 100%;
+    }
+    .txtFramePopup dd{
+        padding:0.25rem 0.9rem;
+        border:1px solid #000;
+    }
+
+    .hiddenGnb{
+        display: flex;
+        transition: all 0.8s ease 0s;
+        transform: translateX(-100%);
+    }
+    .hiddenGnb.on{
+        transform: translateX(0%);
+    }
+
+    .certi{
+        flex-direction: column-reverse;
+    }
+    .certiImg{
+        text-align: right;
+    }
+    .certiImg img{
+        height:300px;
+        object-fit: cover;
+    }
+
+    .skillList>li{
+        width:calc((100% - 1rem)/2);
+    }
+    .skills h1+p{
+        width:auto;
+    }
+    
+    
+    header{display: none;}
+    .btnMenu{display: block;}
+    
+    .floatingHeroTxt p:nth-of-type(2){
+        width:100%;
+    }
+    .aboutImg{
+        width:auto;
+        flex:1;
+        margin-top: 0;
+    }
+}
+

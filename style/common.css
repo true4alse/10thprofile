@@ -1,18 +1,26 @@
 /* 공통적으로 들어가는 스타일 */
+:root{
+    --main-color:#30FFCF;
+}
 
 html{
     font-size: 20px;
     /* 1rem = 20px */
     font-family: "Pretendard",sans-serif;
+    scroll-behavior: smooth;
 }
+
 h1{
     font-size: 1.3rem;
+    font-weight: 700;
 }
 h2{
     font-size: 1.2rem;
+    font-weight: 600;
 }
 h3{
     font-size:1rem;
+    font-weight: 600;
 }
 p{
     line-height: 140%;
@@ -22,4 +30,27 @@ p{
 }
 button{
     font-size:0.8rem;
+}
+strong{
+    color: var(--main-color);
+    font-weight: inherit;
+}
+.commonFrame{
+    width:1400px;
+    margin:0 auto;
+    padding-top: 6rem;
+}
+
+@keyframes swing {
+    0%{
+        transform:rotate(-25deg);
+    }
+    100%{
+        transform:rotate(25deg);
+    }
+}
+
+.barStyle{
+    border-left: 0.25rem solid var(--main-color);
+    padding-left: 1rem;
 }

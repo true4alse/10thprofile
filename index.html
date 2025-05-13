@@ -8,23 +8,227 @@
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/tab.css">
+    <link rel="stylesheet" href="./style/mo.css">
+    <script src="./js/index.js"></script>
 </head>
 <body>
     <span class="btnMenu">
         <img src="./img/ion_menu.svg" alt="메뉴버튼">
     </span>
     <div class="hiddenGnb">
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">POPUPS</a></li>
+        <span class="btnClose">
+            <img src="./img/btn_close.svg" alt="닫기버튼">
+        </span>
+        <div>
+            <ul class="gnb">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#popup">POPUPS</a></li>
+                <li><a href="#">BANNERS</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <a href="#" class="btnStyle">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.95359 14.2879L3.94491 15.9545C3.94261 16.3965 4.116 16.8214 4.42692 17.1356C4.73785 17.4497 5.16086 17.6275 5.60288 17.6298L15.6027 17.6819C16.0448 17.6842 16.4696 17.5108 16.7838 17.1999C17.098 16.889 17.2758 16.466 17.2781 16.024L17.2867 14.3573M6.4796 9.30096L10.6245 13.4893M10.6245 13.4893L14.8128 9.34436M10.6245 13.4893L10.6766 3.48941" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                DESIGN RESUME
+            </a>
+        </div>
+    </div>
+    <header>
+        <ul class="gnbFloat">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#popup">POPUPS</a></li>
             <li><a href="#">BANNERS</a></li>
             <li><a href="#">PROJECTS</a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
-        <a href="#"><img src="./img/tabler_download.svg" alt="다운로드 아이콘"> DESIGN RESUME</a>
-    </div>
+        <a href="#" class="btnStyle">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.95359 14.2879L3.94491 15.9545C3.94261 16.3965 4.116 16.8214 4.42692 17.1356C4.73785 17.4497 5.16086 17.6275 5.60288 17.6298L15.6027 17.6819C16.0448 17.6842 16.4696 17.5108 16.7838 17.1999C17.098 16.889 17.2758 16.466 17.2781 16.024L17.2867 14.3573M6.4796 9.30096L10.6245 13.4893M10.6245 13.4893L14.8128 9.34436M10.6245 13.4893L10.6766 3.48941" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            DESIGN RESUME
+        </a>
+    </header>
 
+    <main>
+        <div class="hero" id="home">
+            <img src="./img/hero.jpg" alt="uiux디자이너 정현진 배너">
+            <div class="floatingHeroTxt">
+                <p>UI UX 디자이너 정현진</p>
+                <h1>RETURN TO <strong>BASIC</strong></h1>
+                <p>UI/UX 디자이너로서, 감각적인 디자인보다 <strong>기본이 탄탄한 디자인</strong>이 더 좋은 경험을 만든다고 생각합니다. 사용자 중심의 구조, 명확한 타이포그래피, 조화로운 색감이 디자인의 본질을 결정한다고 믿습니다.</p>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="aboutTxt">
+                <h1>
+                    사용자의 입장에서 생각하고<br>
+                    감성을 더하다.
+                    <img class="deco1" src="./img/deco.png" alt="꾸미기">
+                </h1>
+                <p class="barStyle">사용자 경험을 고려한 직관적인 인터페이스와, 감각적인 디자인 요소를 조화롭게 적용하는 것이 저의 디자인 원칙입니다.</p>
+                <p>UI·UX 디자인을 통해 사용자 경험을 향상시키는 것을 목표로 하는 디자이너입니다. 직관적인 인터페이스와 감각적인 디자인을 결합해 효과적인 디지털 제품을 만드는 데 집중하고 있습니다.</p>
+                <p>다양한 팀과의 원활한 커뮤니케이션을 바탕으로, 기획부터 개발까지 협업하는 과정을 중요하게 생각합니다. 유연한 태도와 적극적인 소통을 통해 팀원들과 시너지를 만들어내며, 공동의 목표를 효과적으로 달성할 자신이 있습니다.</p>
+            </div>
+            <div class="aboutImg">
+                <img src="./img/profile1.jpg" alt="정현진 프로필 이미지">
+            </div>
+        </div>
+        <div class="skillsWrap">
+            <div class="skills">
+                <h1>Design & Development Skills</h1>
+                <p class="barStyle">HTML5, CSS, JavaScript, jQuery를 활용한 웹 퍼블리싱과 Figma, Photoshop, Illustrator를 이용한 UI·UX 디자인 작업을 수행할 수 있습니다. 디자인부터 구현까지 전반적인 프로세스를 이해하며, 실무에 적용할 수 있는 역량을 갖추고 있습니다.</p>
+                
+                <ul class="skillList">
+                    <li>
+                        <h3>HTML5</h3>
+                        <p>시맨틱 태그를 활용한 구조적이고 접근성 높은 웹페이지를 작성할 수 있으며, 웹 표준을 준수한 마크업을 구현할 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <h3>CSS</h3>
+                        <p>반응형 웹 디자인을 적용하여 다양한 디바이스에서 최적화된 UI를 구현하고, 애니메이션 및 스타일링을 활용해 사용자 경험을 향상시킬 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <h3>JavaScript</h3>
+                        <p>기본적인 문법을 이해하고, DOM 조작 및 이벤트 핸들링을 활용하여 사용자 인터랙션을 구현할 수 있습니다. 또한, 슬라이드, 모달, 탭 메뉴 등의 동적인 UI 요소를 제작할 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <h3>jQuery</h3>
+                        <p>복잡한 DOM 조작을 간결하게 처리하고, 애니메이션 효과 및 비동기 로딩을 통해 웹사이트의 기능성을 높일 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <h3>Illustrator</h3>
+                        <p>벡터 그래픽을 활용한 로고, 아이콘, UI 요소를 제작할 수 있으며, 브랜드 아이덴티티 디자인을 효과적으로 수행할 수 있습니다.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Photoshop</h3>
+                        <p>이미지 보정 및 편집을 통해 고품질의 비주얼을 제작할 수 있으며, UI 디자인 및 그래픽 요소 제작을 전문적으로 다룰 수 있습니다.</p>
+                    </li>
+                    <li>
+                        <h3>Figma</h3>
+                        <p>UI·UX 디자인 및 프로토타이핑을 수행할 수 있으며, 팀원과의 실시간 협업을 통해 디자인 프로세스를 효율적으로 관리할 수 있습니다.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="certi">
+            <div class="certiTxt">
+                <h1>Certifications</h1>
+                <p class="barStyle">디자인 및 UI·UX 관련 자격을 취득하며 기본기를 탄탄히 다졌습니다.새로운 도전과 배움을 통해 성장하는 디자이너가 되겠습니다.</p>
+                <dl class="cerList">
+                    <dt>2025 05</dt>
+                    <dd>GTQ(그래픽기술자격)1급 - 한국생산성본부</dd>
+                    <dt>2025 05</dt>
+                    <dd>GTQi(그래픽기술자격 일러스트)1급 - 한국생산성본부</dd>
+                    <dt>2025 06</dt>
+                    <dd>웹디자인개발기능사 - 산업통상자원부</dd>
+                </dl>
+            </div>
+            <div class="certiImg">
+                <img src="./img/profile2.jpg" alt="정현진 프로필 이미지">
+            </div>
+        </div>
+        <div class="popup commonFrame" id="popup">
+            <div class="popupTitle">
+                <h1>Popup Design Archive</h1>
+                <p class="barStyle">직접 디자인한 팝업 시안들을 한데 모은 작업물입니다.각 팝업은 500px 가로 사이즈로 제작되었으며, 다양한 주제와 목적에 맞게 테마를 설정해 디자인했습니다.사용자의 시선을 끌고 명확한 메시지를 전달하는 데 중점을 두었습니다.</p>
+            </div>
+            <div class="popupListFrame">
+                <ul class="popupList">
+                    <li>
+                        <figure>
+                            <img src="./img/popup1.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/popup2.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/popup3.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/popup4.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/popup1.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/popup2.jpg" alt="나이키 오프라인 할인 팝업">
+                        </figure>
+                        <div class="txtFramePopup">
+                            <h3>나이키 오프라인 할인 팝업</h3>
+                            <p>오프라인 매장 한정 할인 프로모션을 직관적으로 알릴 수 있도록 팝업을 기획했습니다.</p>
+                            <dl>
+                                <dt>제작 툴</dt>
+                                <dd>Illustrator</dd>
+                                <dd>Photoshop</dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
     
 </body>
 </html>

@@ -1,0 +1,39 @@
+@media (max-width:767px){
+    .popupTitle{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .skillList>li{
+        width:100%;
+    }
+    html{
+        font-size: 14px;
+    }
+    header{display: none;}
+    .btnMenu{display: block;}
+    .floatingHeroTxt{
+        width:100%;
+        padding:0 1rem;
+    }
+    .floatingHeroTxt p:nth-of-type(2){
+        width:100%;
+    }
+    .about{
+        width:auto;
+        margin:0;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 6rem;
+        gap:1rem;
+        flex-direction: column;
+    }
+    .aboutTxt h1{
+        margin-bottom: 2rem;
+    }
+    .popupList{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2rem 1rem;
+    }
+}
