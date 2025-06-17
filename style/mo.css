@@ -36,4 +36,13 @@
         grid-template-columns: repeat(2,1fr);
         gap:2rem 1rem;
     }
+
+    .bannerTxt{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bannerTxt dt{
+        width:40%;
+        margin-right: 0;
+    }
+
 }

@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./style/tab.css">
     <link rel="stylesheet" href="./style/mo.css">
     <script src="./js/index.js"></script>
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <span class="btnMenu">
@@ -25,8 +28,8 @@
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT ME</a></li>
                 <li><a href="#popup">POPUPS</a></li>
-                <li><a href="#">BANNERS</a></li>
-                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#banner">BANNERS</a></li>
+                <li><a href="#project">PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
             <a href="#" class="btnStyle">
@@ -42,8 +45,8 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#about">ABOUT ME</a></li>
             <li><a href="#popup">POPUPS</a></li>
-            <li><a href="#">BANNERS</a></li>
-            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#banner">BANNERS</a></li>
+            <li><a href="#project">PROJECTS</a></li>
             <li><a href="#">CONTACT</a></li>
         </ul>
         <a href="#" class="btnStyle">
@@ -225,6 +228,201 @@
                         </div>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="bannerWrap">
+            <!-- <div class="bannerControl">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div> -->
+            <div class="banner commonFrame" id="banner">
+                <div class="popupTitle">
+                    <h1>Banner Design Archive</h1>
+                    <p class="barStyle">다양한 목적과 테마에 맞춰 제작한 배너 디자인 작업물을 모아 정리한 아카이브입니다. 브랜드의 메시지를 효과적으로 전달하기 위한 시각적 구성과 스타일에 중점을 두었습니다.</p>
+                </div>
+                <div class="bannerSlide">
+                    <div class="bannerStation swiper">
+                        <div class="swiper-pagination"></div>
+                        <ul class="train swiper-wrapper">
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="./img/banner1.jpg" alt="슬라이드 나이키 배너">
+                                </figure>
+                                <div class="bannerTxt">
+                                    <section>
+                                        <h3>나이키 오프라인 매장 할인 배너</h3>
+                                        <div class="tools">
+                                            <span>Photoshop</span>
+                                            <span>Illustrator</span>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <p>오프라인 매장의 한정 할인 이벤트를 빠르게 인지할 수 있도록 강렬한 컬러와 명확한 타이포로 구성했습니다. 나이키의 에너지와 역동성을 시각적으로 표현해 브랜드 아이덴티티를 강조했습니다.</p>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>TYPOGRAPHY</dt>
+                                            <dd>PRETENDARD</dd>
+                                        </dl>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>COLORS</dt>
+                                            <dd data-color="#EE3939">#EE3939</dd>
+                                            <dd data-color="#23A3E3">#23A3E3</dd>
+                                        </dl>
+                                    </section>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="./img/banner2.jpg" alt="Perfect Perfume! 배너">
+                                </figure>
+                                <div class="bannerTxt">
+                                    <section>
+                                        <h3>Perfect Perfume! 배너</h3>
+                                        <div class="tools">
+                                            <span>Photoshop</span>
+                                            <span>Illustrator</span>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <p>오프라인 매장의 한정 할인 이벤트를 빠르게 인지할 수 있도록 강렬한 컬러와 명확한 타이포로 구성했습니다. 나이키의 에너지와 역동성을 시각적으로 표현해 브랜드 아이덴티티를 강조했습니다.</p>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>TYPOGRAPHY</dt>
+                                            <dd>PRETENDARD</dd>
+                                        </dl>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>COLORS</dt>
+                                            <dd data-color="#111">#111111</dd>
+                                            <dd data-color="#23A3E3">#321422</dd>
+                                        </dl>
+                                    </section>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="./img/banner3.jpg" alt="수퍼노바 아디다스 배너">
+                                </figure>
+                                <div class="bannerTxt">
+                                    <section>
+                                        <h3>수퍼노바 아디다스 배너</h3>
+                                        <div class="tools">
+                                            <span>Photoshop</span>
+                                            <span>Illustrator</span>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <p>오프라인 매장의 한정 할인 이벤트를 빠르게 인지할 수 있도록 강렬한 컬러와 명확한 타이포로 구성했습니다. 나이키의 에너지와 역동성을 시각적으로 표현해 브랜드 아이덴티티를 강조했습니다.</p>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>TYPOGRAPHY</dt>
+                                            <dd>PRETENDARD</dd>
+                                        </dl>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>COLORS</dt>
+                                            <dd data-color="#EE3939">#EE3939</dd>
+                                            <dd data-color="#23A3E3">#23A3E3</dd>
+                                        </dl>
+                                    </section>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="./img/banner4.jpg" alt="수퍼노바 라이즈2 배너">
+                                </figure>
+                                <div class="bannerTxt">
+                                    <section>
+                                        <h3>수퍼노바 라이즈2 배너</h3>
+                                        <div class="tools">
+                                            <span>Photoshop</span>
+                                            <span>Illustrator</span>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <p>오프라인 매장의 한정 할인 이벤트를 빠르게 인지할 수 있도록 강렬한 컬러와 명확한 타이포로 구성했습니다. 나이키의 에너지와 역동성을 시각적으로 표현해 브랜드 아이덴티티를 강조했습니다.</p>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>TYPOGRAPHY</dt>
+                                            <dd>PRETENDARD</dd>
+                                        </dl>
+                                    </section>
+                                    <section>
+                                        <dl>
+                                            <dt>COLORS</dt>
+                                            <dd data-color="#EE3939">#EE3939</dd>
+                                            <dd data-color="#23A3E3">#23A3E3</dd>
+                                        </dl>
+                                    </section>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <script>
+                       let bannerStation = new Swiper(".bannerStation",{
+                            loop:true,
+                            // autoplay: {
+                            //     delay: 2500,
+                            //     disableOnInteraction: false,
+                            // },
+                            speed:1000,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                clickable: true,
+                            },
+                       })
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="project commonFrame" id="project">
+            <div class="popupTitle">
+                <h1>Responsive web project</h1>
+                <p class="barStyle">
+                    기획부터 와이어프레임, 시안 디자인, 프로토타입까지 전 과정을 직접 수행하였습니다.
+                    반응형 웹디자인을 적용하여 다양한 디바이스에서의 접근성을 높였습니다.
+                    심플하고 직관적인 UI를 통해 브랜드의 정체성을 효과적으로 전달하였습니다.
+                </p>
+            </div>
+        </div>
+
+        <div class="project1">
+            <ul class="stickyMenu commonFrame">
+                <li>Renewal</li>
+                <li>FIGMA</li>
+                <li>Original</li>
+            </ul>
+            <div class="imgall">
+                <!-- 디자인 상세 이미지 -->
+            </div>
+        </div>
+        <div class="project2">
+            <ul class="stickyMenu commonFrame">
+                <li>Renewal</li>
+                <li>FIGMA</li>
+                <li>Original</li>
+            </ul>
+            <div class="imgall">
+                <!-- 디자인 상세 이미지 -->
+            </div>
+        </div>
+        <div class="project3">
+            <ul class="stickyMenu commonFrame">
+                <li>Renewal</li>
+                <li>FIGMA</li>
+                <li>Original</li>
+            </ul>
+            <div class="imgall">
+                <!-- 디자인 상세 이미지 -->
             </div>
         </div>
 

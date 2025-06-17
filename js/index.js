@@ -21,4 +21,14 @@ document.addEventListener("DOMContentLoaded",function(){
         })
     }
     
+    // color 채워지는 소스코드
+    let ddArray = document.querySelectorAll("dd[data-color]")
+    ddArray.forEach(function(ddtag){
+        let orcon = ddtag.textContent
+        ddtag.innerHTML = `<span style="background-color:${orcon}"></span>${orcon}`
+    })
+    
+
+    
+
 })
